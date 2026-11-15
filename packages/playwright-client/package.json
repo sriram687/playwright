@@ -26,7 +26,7 @@
   },
   "scripts": {
     "esbuild": "node build.js",
-    "build": "npm run esbuild",
+    "build": "node init && npm run esbuild",
     "watch": "npm run esbuild -- --watch"
   },
   "dependencies": {
